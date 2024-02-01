@@ -15,6 +15,14 @@
       "category": "Alimentação",
       "price": 50,
       "createdAt": "2024-01-25T01:30:00.648Z"
+    },
+    {
+      "id": 3,
+      "description": "Ignite Rocktseat",
+      "type": "outcome",
+      "category": "Educação",
+      "price": 1980,
+      "createdAt": "2024-01-25T01:24:00.648Z"
     }
   ]
 }
