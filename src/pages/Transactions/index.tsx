@@ -23,6 +23,7 @@ export function TransactionsPage() {
                   <td width="50%">{transaction.description}</td>
                   <td>
                     <PriceHighLight variant={transaction.type}>
+                      {transaction.type === 'outcome' && '- '}
                       {priceFormatter.format(transaction.price)}
                     </PriceHighLight>
                   </td>
