@@ -1,10 +1,10 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 // import * as Dialog from '@radix-ui/react-dialog';
 
 export const HeaderContainer = styled.header`
   padding: 2.5rem 0 7.5rem;
 
-  background-color: ${props => props.theme['gray-900']};
+  background-color: ${(props) => props.theme['gray-900']};
 `
 
 export const HeaderContent = styled.div`
@@ -21,19 +21,19 @@ export const HeaderContent = styled.div`
 export const NewTransactionButton = styled.button`
   height: 50px;
   padding: 0 1.25rem;
-  
+
   border: 0;
   border-radius: 6px;
   cursor: pointer;
 
   font-weight: bold;
 
-  background-color: ${props => props.theme['green-500']};
-  color: ${props => props.theme.white};
+  background-color: ${(props) => props.theme['green-500']};
+  color: ${(props) => props.theme.white};
 
   &:hover {
     transition: background-color 0.3s;
-    
-    background-color: ${props => props.theme['green-700']};
+
+    background-color: ${(props) => props.theme['green-700']};
   }
 `
